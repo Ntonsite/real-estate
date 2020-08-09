@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
+<?php $this->load->view('includes/layout/header'); ?>
 <body>
 
 <div class="page_loader"></div>
@@ -42,7 +42,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.html" class="logo">
-                    <img src="<?php echo base_url();?>assets/nest/img/logos/logo.png" alt="logo">
+                    <img src="<?php echo base_url(). 'assets/nest/img/logos/logo.png';?>" alt="logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -2110,6 +2110,6 @@
         </div>
     </div>
 </div>
-
+<?php $this->load->view('includes/layout/bottom'); ?>
 </body>
 </html>

@@ -6,8 +6,8 @@ $(function () {
         setTimeout(function () {
             $(".page_loader").fadeOut("fast");
         }, 100)
-        $('link[id="style_sheet"]').attr('href', 'css/skins/default.css');
-        $('.logo img').attr('src', 'img/logos/logo.png');
+        $('link[id="style_sheet"]').attr('href', 'assets/nest/css/skins/default.css');
+        $('.logo img').attr('src', 'assets/nest/img/logos/logo.png');
 
         // Filterizr initialization
         if($('.filtr-container').length > 0) {
