@@ -43,7 +43,7 @@ class Ads_model extends CI_Model{
 		return TRUE;
 	}
 
-	function deleteSubscription($ad_Id, $data)
+	function deleteAd($ad_Id, $data)
     {
         $this->db->where('ad_Id', $ad_Id);
         $this->db->update('tbl_ads', $data);
